@@ -106,6 +106,33 @@
   .product button:hover {
     background-color: #45a049;
   }
+
+  /* Add media queries for tablet and mobile screens */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  .product {
+    width: calc(50% - 40px); 
+  }
+}
+
+/* Add media queries for mobile screens */
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  .product {
+    width: calc(100% - 40px); 
+  }
+}
+
   
   footer {
     background-color: #333;
